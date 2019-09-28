@@ -1,0 +1,87 @@
+header {
+    margin-top: 20px;
+}
+header .qu {
+    color: green;
+    display: block;
+    font-size: 40px;
+}
+.login {
+    border-bottom: 5px solid green;
+    border-top: 5px solid green;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+ form {
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.login input {
+  width: 20%;
+  margin-bottom: 1em;
+  border: 1px solid #707070;
+  padding: 0.5em;
+  resize: none;
+  border-radius: 10px;
+}
+.login button {
+  border-radius: 10px;
+  width: 10%;
+    padding: 0.6em;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 35px;
+}
+/*start Register*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: green;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+    font-size: 16px
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.emp {
+    margin-bottom: 20px;
+}
+.emp .border {
+    border-right: 5px solid green;
+}
+
+/*end Register*/
